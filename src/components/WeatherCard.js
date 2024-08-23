@@ -1,6 +1,6 @@
 const WeatherCard = ({ weather }) => {
   console.log(weather);
-    return weather != null && weather.cod == '404'?
+    return weather != null && weather.cod === '404'?
       <div className="weather-info">
           <p>City not found</p>
       </div>
